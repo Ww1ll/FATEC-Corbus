@@ -1,0 +1,81 @@
+/* acessorios */
+
+.produtos {
+    padding-top: 288px;
+    width: 100%;
+}
+.box-produto {
+    background-color: #e2e2e2;
+    width: 400px;
+    height: 565px;  
+    margin-left: 70px;
+    border: 10px #383838;
+}
+
+.box-produto h2 {
+    color: #383838;
+    font-weight: bold;
+}
+
+.box-produto h3 {
+    color: #383838;
+    margin-left: 2%;
+}
+
+#preco {
+    margin-left: 300px;
+    margin-top: -25px;
+    font-weight: normal;
+}
+
+#categ-box {
+    margin-top: -15px;
+    font-weight: normal;
+}
+
+.box-produto a:hover{
+   border: #FE6C3E;
+}
+
+#box-02 {
+    margin-left: 535px;
+    margin-top: -565px;
+}
+
+#box-03 {
+    margin-left: 1005px;
+    margin-top: -565px;
+}
+
+#box-04{
+    margin-left: 70px;
+    margin-top: 45px;
+}
+
+#box-05{
+    margin-left: 535px;
+    margin-top: -565px;
+}
+
+#box-06{
+    margin-left: 1005px;
+    margin-top: -565px;
+}
+
+#box-07{
+    margin-left: 70px;
+    margin-top: 45px;
+
+}
+#box-08{
+    margin-left: 535px;
+    margin-top: -565px;
+}
+
+#box-09{
+    margin-left: 1005px;
+    margin-top: -565px;
+}
+
+
+/* acessorios */

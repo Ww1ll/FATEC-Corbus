@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-carrinho.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <script src="scriptCarrinho.js"></script>
+    <title>corbus. | Carrinho</title>
+</head>
+<body>
+    <!-- nav -->
+    <nav class="nav">
+        <div class="logo">
+           <a href="home.html"> <img src="imagens/logo2.png" width="70px"></a>
+        </div>
+        <ul>
+            <li><a href="">Lançamentos</a></li>
+            <li><a href="vestuario.html">Vestuário</a></li>
+            <li><a href="calcados.html">Calçados</a></li>
+            <li><a href="">Acessórios</a></li>
+            <li><a href="">OFERTAS</a></li>
+            <li>
+                <a href="carrinho.html"><img src="imagens/icone-carrinho.svg" class="carrinho" width="30px" id="icons"></a>
+            </li>
+            <li>
+                <a href="login.html"><img src="imagens/icone-login.svg" class="login" id="icons"></a>
+            </li>
+        </ul>
+    </nav>
+    <!-- produtos -->
+    <main>
+        <h2>Carrinho de compras</h2>
+        <table id="tabela-carrinho">
+            <thead>
+                <tr>
+                    <th colspan="2"> Itens para comprar</th>
+                    <th colspan="2" class="coluna-pequena">Preço</th>
+                    <th class="coluna-pequena">Quantidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr id="item01">
+                        <td class="coluna-capa">
+                            <img src="Imagens/adidas/gc/001.jpg" width="200px" height="200px" class="capa">
+                        </td>
+                
+                        <td> 
+                            <div class="produto-car">
+                                <a href="" class="nome-produto">Grand Court</a>
+                                <a href="" class="nome-marca">Adidas</a>
+                            </div>
+                            <strong class="estoque">Em estoque</strong>
+                            <div>
+                                <label class="presente"><input type="checkbox">Presente</label>
+                            </div>
+                            <a href="" class="remover-carrinho"  onclick="remover()">Tirar do carrinho</a>
+                        </td>
+                        <td colspan="2"><span class="preco-produto">R$230.00</span></td>
+                        <td>
+                            <input type="number" value="1" min="0" max="5">
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr id="item02">
+                        <td class="coluna-capa">
+                            <img src="Imagens/calcados/TÊNIS MERCEDES-AMG PETRONAS FORMULA 1 DRIFT CAT DECIMA MOTORSPORT/001.webp" width="200px" height="200px" class="capa">
+                        </td>
+                
+                        <td> 
+                            <div class="produto-car">
+                                <a href="" class="nome-produto">Tênis Mercedes AMG</a>
+                                <a href="" class="nome-marca">Puma</a>
+                            </div>
+                            <strong class="estoque">Em estoque</strong>
+                            <div>
+                                <label class="presente"><input type="checkbox">Presente</label>
+                            </div>
+                            <a href="" class="remover-carrinho" onclick="remover()">Tirar do carrinho</a>
+                        </td>
+                        <td colspan="2"><span class="preco-produto">R$649.90</span></td>
+                        <td>
+                            <input type="number" value="1" min="0" max="5">
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" class="texto-total">Total da compra</td>
+                        <td colspan="2"><span class="total">R$ 880.00</span></td>
+                        <!-- <td>&nbsp;</td> -->
+                    </tr>
+                </tfoot>
+        </table>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <ul class="sociais">
+            <li><a href=""><img src="imagens/insta.svg" width="30px" height="30px" id="insta"></a></li>
+            <li><a href=""><img src="imagens/linkedin.svg" width="30px" height="30px" id="ld" ></a></li>
+            <li><a href=""><img src="imagens/fb.svg" width="30px" height="30px" id="fb" ></a></li>
+            <li><a href=""><img src="imagens/yt.svg" width="30px" height="30px" id="yt" ></a></li>
+        </ul>
+        <ul class="sac">
+            <li><h4>Nome do prédio</h4></li>
+            <li>Endereço</li>
+            <li>Telefone(XX)XXXX-XXXX</li>
+            <li>sac.corbus@gmail.com</li>
+            <li><img src="imagens/logo2.png" width="127.53px" height="67px"  class="logo-footer"></li>
+        </ul>
+        <ul class="mapa">
+            <li><h3>MAPA DO SITE</h3></li><br><br>
+            <li><a href="home.html">Home</a></li><br>
+            <li><a href="">Lançamentos</a></li><br>
+            <li><a href="vestuario.html">Vestuário</a></li><br>
+            <li><a href="calcados.html">Calçados</a></li><br>
+            <li><a href="">Aecssórios</a></li><br>
+            <li><a href="">OFERTAS</a></li><br>
+        </ul>
+        <ul class="contato">
+            <li>Contato</li><br>
+            <li>Política de privacidade</li><br>
+            <li>Política de cookies</li><br>
+            <li>Termos de uso</li><br>
+        </ul>
+        <ul class="newsletter">
+            <li><h3>NEWSLETTER</h3></li><br><br>
+            <h4>Quer receber nossas ofertas?<br>
+            Se inscreva na nossa newsletter!
+            </h4>
+            <input type="text"><button class="btn-news">Enviar</button>
+        </ul>
+    </footer>
+</body>
+</html>
